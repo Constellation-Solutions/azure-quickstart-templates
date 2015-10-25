@@ -58,6 +58,9 @@
     },
     "AssetLocation": {
       "value": "https://raw.githubusercontent.com/Constellation-Solutions/azure-quickstart-templates/master/active-directory-new-domain"
-    }
+    },
+      "instanceName": {
+          "value": "SPDEV2013"
+      }
   }
 }
