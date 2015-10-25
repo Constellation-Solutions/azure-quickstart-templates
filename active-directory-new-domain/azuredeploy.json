@@ -25,6 +25,7 @@
     "location": {
       "type": "string",
       "allowedValues": [
+        "South Central US",
         "West US",
         "East US",
         "West Europe",
