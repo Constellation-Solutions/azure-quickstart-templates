@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "newStorageAccountName": {
-      "value": "SPDEV2013Stor"
+      "value": "SPDev2013Stor"
     },
     "storageAccountType": {
       "value": "Standard_LRS"
@@ -27,22 +27,22 @@
       "value": "spdev2013dc1"
     },
     "virtualNetworkName": {
-      "value": "SPDEV2013-VNET"
+      "value": "SPDev2013-VNET"
     },
     "virtualNetworkAddressRange": {
-      "value": "10.0.0.0/24"
+      "value": "10.100.1.0/24"
     },
     "adSubnetName": {
-      "value": "SPDEV2013-Subnet"
+      "value": "SPDev2013-Subnet"
     },
     "adSubnet": {
-      "value": "10.0.0.0/24"
+      "value": "10.100.1.0/24"
     },
     "adNicName": {
       "value": "spdev2013dc1-NIC"
     },
     "adNicIPAddress": {
-      "value": "10.0.0.4"
+      "value": "10.100.1.4"
     },
     "publicIPAddressName": {
       "value": "spdev2013dc1-PublicIP"
@@ -54,13 +54,13 @@
       "value": "spdev2013dc1"
     },
     "adAvailabilitySetName": {
-      "value": "SPDEV2013-AvailSet"
+      "value": "SPDev2013-AvailSet"
     },
     "AssetLocation": {
       "value": "https://raw.githubusercontent.com/Constellation-Solutions/azure-quickstart-templates/master/active-directory-new-domain"
     },
       "instanceName": {
-          "value": "SPDEV2013"
+          "value": "SPDev2013"
       }
   }
 }
