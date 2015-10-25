@@ -3,28 +3,61 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "newStorageAccountName": {
-      "value": "uniqueAccount"
+      "value": "SPDEV2013Stor"
     },
     "storageAccountType": {
-      "value": "Standard_GRS"
+      "value": "Standard_LRS"
     },
     "location": {
       "value": "South Central US"
     },
     "adminUsername": {
-      "value": "test"
+      "value": "spdev2013admin"
     },
     "adminPassword": {
-      "value": "somePass"
+      "value": "sh@r3P0int"
     },
     "adVMSize": {
-      "value": "Standard_A2"
+      "value": "Standard_D1"
     },
     "domainName": {
-      "value": "testName"
+      "value": "spdev2013.local"
     },
     "addnsName": {
-      "value": "testDNS"
+      "value": "spdev2013dc1"
+    },
+    "virtualNetworkName": {
+      "value": "SPDEV2013-VNET"
+    },
+    "virtualNetworkAddressRange": {
+      "value": "10.0.0.0/24"
+    },
+    "adSubnetName": {
+      "value": "SPDEV2013-Subnet"
+    },
+    "adSubnet": {
+      "value": "10.0.0.0/24"
+    },
+    "adNicName": {
+      "value": "spdev2013dc1-NIC"
+    },
+    "adNicIPAddress": {
+      "value": "10.0.0.4"
+    },
+    "publicIPAddressName": {
+      "value": "spdev2013dc1-PublicIP"
+    },
+    "publicIPAddressType": {
+      "value": "Dynamic"
+    },
+    "adVMName": {
+      "value": "spdev2013dc1"
+    },
+    "adAvailabilitySetName": {
+      "value": "SPDEV2013-AvailSet"
+    },
+    "AssetLocation": {
+      "value": "https://raw.githubusercontent.com/Constellation-Solutions/azure-quickstart-templates/master/active-directory-new-domain"
     }
   }
 }
